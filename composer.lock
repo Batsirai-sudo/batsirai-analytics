@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f0aab6f0f3677d04051a96973d4356d4",
+    "packages": [
+        {
+            "name": "batsirai/cli",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Batsirai-sudo/batsirai-cli.git",
+                "reference": "e83ccf2ef3128df39dd89b1124542fbae4a6b829"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Batsirai-sudo/batsirai-cli/zipball/e83ccf2ef3128df39dd89b1124542fbae4a6b829",
+                "reference": "e83ccf2ef3128df39dd89b1124542fbae4a6b829",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Batsirai\\Cli\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Batsirai Muchareva",
+                    "email": "admin@batsirai.dev",
+                    "homepage": "https://batsirai.dev",
+                    "role": "Software Engineer"
+                }
+            ],
+            "description": "CLI library",
+            "support": {
+                "issues": "https://github.com/Batsirai-sudo/batsirai-cli/issues",
+                "source": "https://github.com/Batsirai-sudo/batsirai-cli/tree/v1.0.0"
+            },
+            "time": "2022-12-06T21:24:12+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "beta",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-curl": "*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

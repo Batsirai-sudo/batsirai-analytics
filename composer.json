@@ -1,0 +1,24 @@
+{
+    "name": "batsirai/analytics",
+    "description": "library to send information about events or page-views to Google Analytics.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Batsirai\\Analytics\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Batsirai Muchareva",
+            "email": "admin@batsirai.dev",
+            "homepage": "https://batsirai.dev",
+            "role": "Software Engineer"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "ext-curl": "*",
+        "batsirai/cli": "^1.0"
+    }
+}
