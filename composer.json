@@ -16,7 +16,7 @@
             "role": "Software Engineer"
         }
     ],
-    "minimum-stability": "beta",
+    "minimum-stability": "dev",
     "require": {
         "ext-curl": "*",
         "batsirai/cli": "^1.0"
